@@ -35,7 +35,7 @@
 }
 
 .sprite-pos(@x, @y, @sprite-grid:@sprite-grid) {
-	background-position: -(@x*@sprite-grid*1px)  -(@y*@sprite-grid*1px);
+	background-position: -(@x*@sprite-grid*1)  -(@y*@sprite-grid*1);
 }
 
 .sprite-pos-sized(@x, @y, @size, @sprite-grid:@sprite-grid) when not (isnumber(@sprite-image)) {
